@@ -1,3 +1,3 @@
-from app.db.models.agent_run import AgentRun
+from app.db.models.search import SearchJob, SearchResult
 
-__all__ = ["AgentRun"]
+__all__ = ["SearchJob", "SearchResult"]
