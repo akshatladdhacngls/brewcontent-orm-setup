@@ -2,6 +2,10 @@
 
 Starter scaffolding for FastAPI microservices with PostgreSQL, SQLAlchemy 2.x, and Alembic.
 
+## For Coding Agents
+
+Before implementing schema/model changes, read `AGENTS_INSTRUCTION.md`.
+
 ## Quick Start
 
 1. Create and activate a Python 3.11+ virtual environment.
@@ -18,6 +22,12 @@ cp .env.example .env
 ```
 
 4. Ensure PostgreSQL is running and `DATABASE_URL` points to your service database.
+
+If you store variables in `.env`, export them in your shell before running commands:
+
+```bash
+set -a; source .env; set +a
+```
 
 5. Run migrations:
 
